@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ff0000;
+}
+
+#burger_canvas {
+  display:  flex;
+  flex-direction: column-reverse;
+  gap:0px;
+  align-items: center;
+}
+
+img {
+  width: 550px;
+  height: 70px;
+  object-fit: cover;
+}
+.s {
+  height: 30px;
+  width: 500px;
+}
+.b {
+  width: 650px;
+}
+header {
+  position: absolute;
+  top: 0px !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 1em;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  padding: 0%;
+  margin: 0;
+  padding
+}
+.l {
+  height: 60px;
+}
+.m {
+  height: 20px;
+}
+.c {
+  height: 5px;
+  width: 550px;
+}
+.tb {
+  width: 650px;
+  height: 150px;
+  object-fit: fill !important;
+}
+.cmprs {
+  height: 20px;
+}
+
+@keyframes dance {
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  0% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.ktcm {
+  height: 7px !important;
+}
