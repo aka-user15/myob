@@ -86,23 +86,23 @@ header {
 }
 @media (max-width:672px) {
   img {
-    width: 350px;
+    width: 250px;
     height: 70px;
     object-fit: cover;
   }
   .s {
     height: 30px;
-    width: 300px;
+    width: 200px;
   }
   .b {
-    width: 450px;
+    width: 350px;
   }
   .c {
     height: 5px;
-    width: 350px;
+    width: 250px;
   }
   .tb {
-    width: 450px;
+    width: 350px;
     height: 150px;
     object-fit: fill !important;
   }

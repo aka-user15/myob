@@ -43,7 +43,7 @@ done.onclick = () => {
         img.style.width = "550px"
       } 
       else {
-        img.style.width = "400px"
+        img.style.width = "300px"
       }
     }
     if (img.className === "l brgrprt") {
