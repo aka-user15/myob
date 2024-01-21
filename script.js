@@ -39,7 +39,12 @@ done.onclick = () => {
     const img = imgs[i]
     if (img.className === "s k brgrprt") {
       img.style.height = "2px"
-      img.style.width = "550px"
+      if (document.getElementsByTagName("body")[0].clientWidth > 700) {
+        img.style.width = "550px"
+      } 
+      else {
+        img.style.width = "400px"
+      }
     }
     if (img.className === "l brgrprt") {
       img.style.height = "25px"
